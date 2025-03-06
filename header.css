@@ -1,0 +1,94 @@
+refer{color:
+    #0E0E10 
+    #10e3a4 
+    #2575fc
+    #c90411
+    #F8F8FF
+    #FFA500
+    #fc6b03
+    #6666ff
+    #76B900
+    #002fed
+    #ef0707
+    #bd00ff
+    #e3ff00
+    }
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+.header img{
+    width: 350px;
+    position: absolute;
+    left: 20px;
+    top: -123px;
+}
+.header ul{
+    position: absolute;
+    left: 450PX;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header ul  li{
+    margin-right: 50px;
+
+}
+.header ul  li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: clr;
+    transition: all 0.3S linear;
+}
+.header ul  li a:hover{
+    background-color: #ef0707;
+    padding: 10PX;
+    border-radius: 5PX;
+}
+.header i {
+    position: absolute;
+    color: #0E0E10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 650px;
+    background-color: #ef0707;
+    height: 100%;
+    width: 60px;
+    top: 0px;
+    border-radius: 5px;
+    padding: 15px;
+}
+/*#account-logo-top{
+    background-color: #76B900;
+    padding: 15px;
+    border-radius: 10px;
+    color: snow;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 430px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: -10px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}*/
+@media max-width: 1000px{
+    body{
+        display: none;
+    }
+    
+}
