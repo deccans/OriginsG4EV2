@@ -1,0 +1,82 @@
+refer{color:
+    #0E0E10 
+    #10e3a4 
+    #2575fc
+    #c90411
+    #F8F8FF
+    #FFA500
+    #fc6b03
+    #6666ff
+    #76B900
+    #002fed
+    #ef0707
+    #bd00ff
+    #e3ff00
+    }
+.corl{
+    width: 95%;
+    height: 400px;
+    position:absolute ;
+    background-color: snow;
+    display: flex;
+    flex-direction: ROW;
+    gap: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: aliceblue;
+    margin-top: 320PX;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+    border-radius: 10PX;
+}
+.corls{
+   width: 450PX;
+   height: 300pc;
+   position: relative;
+   left: 50PX;
+   right: 60px;
+   height: 300PX;
+background-color: #0E0E10;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+.corl::-webkit-scrollbar{
+    width: 10px;
+    background-color: #0E0E10;
+    border-radius: 10px;
+
+}
+.corl::-webkit-scrollbar-thumb{
+    background-color: #10e3a4;
+    border-radius: 10px;
+}
+*/*.corls::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-color:seashell;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}*/
+.corls::after{
+    content: "COMING SOON";
+    position: absolute;
+    color: #F8F8FF;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-family: clr;
+    transform: rotateZ( -30deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
