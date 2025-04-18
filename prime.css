@@ -12,6 +12,8 @@ refer{color:
     #ef0707
     #bd00ff
     #e3ff00
+    #00f7ff
+    #e4c30d
     }
 .container{
     position: absolute;
@@ -20,7 +22,6 @@ refer{color:
     margin: auto;
     height: 2500px;
     width: 100%;
-    margin-top: -150px;
     z-index: -999;
     box-shadow: 1px 1px 15px black;
   }
@@ -143,7 +144,7 @@ refer{color:
   .dlbgames::after{
     content: "2";
     position: absolute;
-    right: -80px;
+    right: -90px;
     width: 100px;
     background-color: #ef0707;
     top: 0;
@@ -158,7 +159,6 @@ refer{color:
     justify-content: center;
     animation-name: btt;
   }
-  
   .dlbgames h2{
     font-family:clr ;
     font-size: 25px;

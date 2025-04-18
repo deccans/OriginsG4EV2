@@ -43,6 +43,8 @@ background-color: #0E0E10;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+overflow: hidden;
+transition: all 0.4s linear ;
 
 }
 .corl::-webkit-scrollbar{
@@ -56,7 +58,7 @@ background-size: cover;
     cursor: pointer;
 }
 .corls::after{
-    animation: clrtb 2s infinite;
+    animation:;
     content: "COMING SOON";
     position: absolute;
     color: #F8F8FF;
@@ -66,8 +68,68 @@ background-size: cover;
     left: 0;
     margin: auto;
     font-family: clr;
-    transform: rotateZ( -30deg);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.4s linear ;
+}
+.corls:nth-child(2)::after{
+    content: "";
+    background: url(Images/Banner/Ark2-bg.jpg);
+    background-size: cover;
+
+}
+.corls:nth-child(1)::after{
+    content: "";
+    background: url(Images/FONT-PACK-THUMBNAIL.png);
+    background-size: cover;
+    background-position: center;
+}
+.corls:hover::after{
+    transform: scale(1.1);
+}
+.corls::before{
+    content: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: clr;
+    position: absolute;
+    bottom: 0;
+    background-color: #F8F8FF;
+    width: 100%;
+    height: 50px;
+    box-shadow: 1px 1px 15px #0E0E10;
+    z-index: 1;
+    border-radius: 1px;
+    transition: all 0.4s linear ;
+}
+.corls a{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: clr;
+    position: absolute;
+    bottom:16px;
+    font-size:18px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-decoration: none;
+    color: #0E0E10;
+    z-index: 2;
+}
+.corls:hover{
+    box-shadow: 1px 1px 35px #76B900;
+    border-radius: 10px;
+    border: none;
+}
+.corls:hover::before{
+    background-color:#76B900;
+    left: 0;
+    .download-now-corls{
+        color: #efeff7;
+    }
 }
